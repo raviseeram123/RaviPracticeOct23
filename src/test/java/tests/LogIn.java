@@ -25,6 +25,7 @@ public class LogIn  extends Base{
         lp.getEmailIDfield().sendKeys(prop.getProperty("email"));
         lp.getPasswordField().sendKeys(prop.getProperty("password"));
         lp.getLoginButton().click();     
+        System.out.println("Kumar updated code in his repo");
                   		
         	
 		
